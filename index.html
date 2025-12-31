@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>PROJET2-tailwinds</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white min-h-screen flex items-center justify-center">
+
+  <div class="grid grid-cols-2 gap-0">
+
+    <!-- Texte -->
+    <div class="w-50% h-300 bg-green-500 text-white 
+                 flex items-center justify-center
+               font-semibold text-lg cursor-pointer">
+        <h1>Online Community For<br>Front-end Developers </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+    </div>
+
+    <div class="CARD  w-50% h-300 p-40 bg-red-500 text-white 
+                grid grid-cols-1 items-center justify-center
+                text-lg font-semibold cursor-pointer">
+      <!-- <div class=" card"> -->
+        <h1 class="text-black text-2xl mb-1 gap-20">Join & Connect the Fastest<br>Growing Online Community</h1>
+
+        <div class="SOCIAL flex gap-1 mb-1">
+          <button class="google flex-1 p-2 rounded-lg text-sm bg-green-100 rounded-full">Sign up with Google</button>
+          <button class="github flex-1 p-2 rounded-lg text-sm bg-green-100 rounded-full">Sign up with GitHub</button>
+        </div>
+
+        <form>
+          <label class="rounded-lg text-hello block inset-y-3">Username</label>
+          <input class="w-100 p-0 outline:none border-b " type="text" placeholder="">
+
+          <label class="rounded-lg text-hello block inset-y-3">Email</label>
+          <input class="w-100 p-0 outline:none border-b " type="email" placeholder="johndoe@emai">
+
+          <label class="rounded-lg text-blue block inset-y-3">Password</label>
+          <input class="w-100 p-0 outline:none border-b " type="password" placeholder="********">
+
+          <div class="TERMS flex text-xs my-5 items-center gap-2">
+            <input  class="w-100 p-0 outline:none border-b "type="checkbox">
+            <span>I accept the Terms & Conditions</span>
+          </div>
+
+          <button class="SIGNUP w-full py-3 bg-blue-600 text-white fond-bold rounded-full hover:bg-blue-700">SIGN UP</button>
+        </form>
+
+        <p class="LOGIN text-center text-xs mt-5">
+          Own an Account? <a href="#" class="text-green-600 no-underline fond-bold">RIGHT IN</a>
+        </p>
+      <!-- </div> -->
+    </div>
+</body>
+
+</html>
